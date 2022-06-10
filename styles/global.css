@@ -5,7 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 * {
@@ -24,4 +24,209 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+h1 {
+  margin: 0;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+.rich-media-title {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 36px;
+}
+
+.section-content {
+  line-height: 1.75em;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.content-normal {
+  color: rgb(51, 51, 51);
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+  letter-spacing: 1px;
+  visibility: visible;
+}
+
+.content-emphasis {
+  letter-spacing: 1px;
+  color: rgb(0, 122, 170);
+  font-family: "Microsoft YaHei", sans-serif;
+  caret-color: rgb(255, 0, 0);
+  font-size: 16px;
+  visibility: visible;
+}
+
+/*meditations-index*/
+
+.section-title {
+  text-align: center;
+}
+
+.section-title img {
+  width: 350px;
+  height: auto;
+}
+
+.section-image {
+  text-align: center;
+}
+
+.section-profile {
+  padding: 2em 1em;
+  border-radius: 10px;
+  box-shadow: rgb(242, 242, 242) 0px 0px 10px;
+}
+
+.section-profile-head {
+  max-inline-size: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box !important;
+  overflow-wrap: break-word !important;
+  outline: none 0px !important;
+  visibility: visible;
+}
+
+.section-avatar {
+  max-inline-size: 100%;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  overflow-wrap: break-word !important;
+  outline: none 0px !important;
+  visibility: visible;
+}
+
+.section-avatar-img {
+  box-sizing: border-box;
+  max-inline-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+  vertical-align: inherit;
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+  height: 0px;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: inline-block;
+  overflow-wrap: break-word !important;
+  outline: none 0px !important;
+  visibility: visible;
+}
+
+.section-avatar-img img {
+  box-sizing: border-box;
+  max-inline-size: 100%;
+  vertical-align: inherit;
+  opacity: 0;
+  visibility: visible !important;
+  overflow-wrap: break-word !important;
+  outline: none 0px !important;
+  width: 50px !important;
+  height: auto !important;
+}
+
+.section-name {
+  margin-left: 10px;
+}
+
+/* photo album */
+.photo-album-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.photo-album {
+  box-sizing: border-box;
+  flex: 1;
+  background: rgb(248, 246, 252);
+}
+
+.photo-album-body {
+  margin-right: auto;
+  margin-left: auto;
+  white-space: normal;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.photo-album-body-container {
+  border-width: 0px;
+  border-style: none;
+  border-color: initial;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  max-width: 100% !important;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.photo-album-img {
+  max-width: 100% !important;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.photo-album-img img {
+  box-sizing: border-box;
+  vertical-align: inherit;
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  visibility: visible !important;
+}
+
+
+.photo-album-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-album-footer-text {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  padding: 5px 1em;
+  color: rgb(108, 92, 155);
+  box-sizing: border-box;
+}
+
+.photo-album-footer-text span {
+  color: rgb(136, 136, 136);
+}
+
+.endorsement-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.endorsement-svg {
+  box-sizing: border-box;
+  max-width: 100% !important;
+  width: 100%;
+  transform: rotateZ(0deg);
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
 }
