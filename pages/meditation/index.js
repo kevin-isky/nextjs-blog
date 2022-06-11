@@ -1,10 +1,10 @@
 import Head from 'next/head';
 
-export default function Intro() {
+export default function IndexPage() {
   return (
     <div>
       <Head>
-        <title>Intro</title>
+        <title>心念冥想：科学的心智健身体系</title>
       </Head>
       <div className="page-content">
         <h1 className="rich-media-title">心念冥想：科学的心智健身体系</h1>

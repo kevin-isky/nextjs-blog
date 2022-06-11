@@ -23,7 +23,7 @@ a:hover {
 
 img {
   max-width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 h1 {
@@ -229,4 +229,20 @@ h1 {
   -moz-transform: rotateZ(0deg);
   -ms-transform: rotateZ(0deg);
   -o-transform: rotateZ(0deg);
+}
+
+/* course page*/
+td {
+  padding: 5px 10px;
+  border: 1px solid #DDD;
+}
+
+td span {
+  color: rgb(63, 63, 63);
+  font-family: Optima-Regular, PingFangTC-light;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  caret-color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
