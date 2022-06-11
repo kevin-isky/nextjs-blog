@@ -1,5 +1,5 @@
 module.exports = {
-  basePath: '/mm',
+  basePath: '/xinnian',
   experimental: {
     outputStandalone: true,
   },

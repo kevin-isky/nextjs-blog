@@ -1,11 +1,8 @@
-import Link from 'next/link';
 import Head from 'next/head';
-import Layout from '../../components/layout';
-
 
 export default function Intro() {
   return (
-    <Layout>
+    <div>
       <Head>
         <title>Intro</title>
       </Head>
@@ -28,7 +25,7 @@ export default function Intro() {
           <img src="https://cdn.yibencezi.com/Fmvc1FXjfq9xYb5HLfp1ET4_QVKr?imageView2/2/w/700/q/75|imageslim"></img>
         </section>
       </div>
-    </Layout>
+    </div>
   );
 }
 
